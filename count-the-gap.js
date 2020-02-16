@@ -1,44 +1,49 @@
-// Write a function that could receive a number as parameter.The function should convert the parameter to binary number.Then, find the highest gap(zeros that between number 1) in one binary number.Return the highest gap of the binary number.
+// Buatlah sebuah function countTheGap yang dapat menerima data number sebagai parameternya. Function tersebut harus mengumbah parameter number menjadi angka binary. Kemudian, hitung gap-nya(gap yang dimaksud adalah angka 0 yang berada diatara dua angka 1). Setelah itu, return hasil perhitungan gap yang tertinggi.
 
-// Example 1:
+// Contoh 1:
 // Input: 9
 // Output: 2
 
-// Why ?
-//   The binary number of 9 is 1001. And there's two zero (gap) between them. So the output is 2
+// Kenapa ?
+// Angka binary dari 9 adalah 1001. Di sini terdapat dua angka 0 diantara dua angka 1 (gap). Maka output adalah 2.
 
-// Example 2:
+// Contoh 2:
 // Input: 529
 // Output: 4
 
-// Why ?
+// Contoh ?
 //   The binary number of 529 is 1000010001. There are two gap, one is 4 and one is 3. The highest gap of them all is 4, therefore the output is 4.
+// Angka binary dari 529 adalah 1000010001. Terdapat dua gap, yaitu 4 dan 3. Gap tertinggi adalah 4, maka outputnya 4.
 
-// Example 3:
+// Contoh 3:
 // Input: 20
 // Output: 1
 
-// Why ?
+// Kenapa ?
 //   The binary number of 20 is 10100. There are only one gap, and it is 1. Therefore, the output is 1.
+// Angka biary dari 20 adalah 10100. Di sini terdapat satu gap, yaitu 1. Maka dari itu, outputnya 1.
 
-// Example 4:
+// Contoh 4:
 // Input: 15
 // Output: 0
 
-// Why ?
-//   The binary number of 15 is 1111. There is 0 gap.Therefore, the output is 0.
+// Kenapa ?
+//   Angka binary of 15 is 1111. Disini terdapat 0 gap, maka dari itu outputnya 0.
 
-
-// Hint: To convert a number to binary number, you can use method toString(2)
-// Example:
+// ----------------------
+// CATATAN:
+// Untuk mengubah data number menjadi angka binary, maka Anda bisa menggunakan method toString(2)
+// Contoh:
 
 // var number = 9
 // var numberToBinary = number.toString(2)
 
 // console.log(numberToBinary)// output: 1001
 
-function countTheGap(num){
+// ------------------------
 
+function countTheGap(num){
+  
 }
 
 console.log(countTheGap(9)) // Output: 2
